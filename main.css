@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: mulish,sans-serif;
+}
+body{
+    width: auto;
+    height: 2200px;
+}
+.header{
+    
+    display:  block !important;
+    
+}
+.navbar{
+    position: fixed;
+    display: flex !important;
+    background-color: #fff;
+    top: 0%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
+    font-weight: 500;
+    font-size: 17px;
+    width: 100%;
+}
+.logo{
+    float: left;
+}
+
+.menu-left  {
+    display: flex !important;
+    float: left;
+ 
+}
+.menu-right  {
+    display: flex !important;
+    
+   
+}
+#mySidebar{
+    display:none;
+    z-index:2;
+    width:40%;
+    min-width:300px;
+}
+.sidebar{
+    padding:8px 16px;
+    display:block ;
+    border:none;
+    margin-left: 55px ;
+    top: 0%;
+    white-space:normal;
+    outline:0;
+    height:1200px;
+    background-color:#fff;
+    position:fixed!important;
+    z-index:1;
+    overflow:auto;
+
+}
+.close{
+    margin-left: 260px;
+}
+.utilities, .support, .community,.shopping{
+    position: relative;
+    margin: 30px 0px;
+}
+ul,li{
+    display: inline-block;
+    list-style:  none;
+    flex-direction: row;
+}
+p{
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 16px;
+}
+.text li {
+    margin-bottom: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+    padding: 15px 17px;
+}
+.register {
+    background-color: #1464f4;
+    border-radius: 3px;
+    padding: 15px 10px;
+    margin: 0 12px 0 24px;
+    
+}
+.register a{
+    color: #fff;
+    font-size: 14px !important;
+
+}
+.content{
+    margin-top: 70px;
+    position: fixed;
+    min-width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+}
+.modal-content{
+    padding-top: 70px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.title{
+    line-height: 80px;
+    float: left;
+    font-size: 27px;
+}
+#email, #password{
+    padding: 8px 12px;
+    width: 325px;
+    height: 40px;
+    font: inherit;
+    border: 1px solid #d9e1e2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.note{
+    margin-top: 18px;
+}
+.note-left{
+    float: left;
+    font-size: 14px;
+}
+.checkbox{
+    margin-right: 5px;
+}
+.note-right{
+    float: right;
+    font-size: 14px;
+    color: #707070;
+}
+.note-right:hover{
+    color: #1464f4;
+}
+.submit{
+    width: 325px;
+    height: 40px;
+    color: #fff;
+    background: #979797;
+    margin-top: 40px;
+    border: #707070;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.noAccount{
+    font-size: 14px;
+    color: #707070;
+    align-items: center;
+    margin-top: 25px;
+}
+.registerAccount{
+    width: 325px;
+    height: 40px;
+    color: #1464f4;
+    background: #ffffff;
+    margin-top: 25px;
+    border-color: #1464f4;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.registerAccount:hover{
+    color: #fff;
+    background-color: #1464f4;
+    font-size: 16px;
+    font-weight: 700;
+}

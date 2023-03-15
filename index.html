@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.js">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#" >
+                    <img src="https://vinfastauto.com/themes/porto/img/new-home-page/VinFast-logo.svg"></a>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="menu-left">
+                <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Ô tô</a></li>
+                    <li><a href="#">Xe máy điện</a></li>
+                    <li><a href="#">Dịch vụ hậu mãi</a></li>
+                    <li><a href="#">Pin và trạm sạc</a></li>
+                </ul>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="menu-right">
+                    <a href="#">Tài khoản</a>
+                    <div class="register">
+                        <a href="" >ĐĂNG KÝ LÁI THỬ</a>
+                    </div>
+                    <div class="w3-button w3-padding-16 w3-right" onclick="w3_open()">☰</div>
+                    <div class="sidebar " id="mySidebar">
+                            <div class="close">
+                                <a href="javascript:void(0)" onclick="w3_close()"
+                                class="w3-bar-item w3-button">X</a>
+                            </div> 
+                            <div class="utilities">
+                                <p>Tiện ích</p>
+                                <ul class="text">
+                                    <li><a href="">So sánh xe</a></li><br>
+                                    <li><a href="">Dự toán chi phí lăn bánh</a></li><br>
+                                    <li><a href="">Dự toán vay trả góp</a></li><br>
+                                    <li><a href="">Thẩm định vay trả góp</a></li>
+                                </ul>
+                            </div>
+                            <div class="utilities">
+                                <p>Tin tức</p>
+                                <ul class="text">
+                                    <li><a href="">Công ty</a></li><br>
+                                    <li><a href="">Cộng đồng</a></li>
+                                </ul>
+                            </div>
+                            <div class="support">
+                                <p>Hỗ trợ</p>
+                                <ul class="text">
+                                    <li><a href="">Tìm Showroom & Trạm sạc</a></li><br>
+                                    <li><a href="">Câu hỏi thường gặp</a></li>
+                                </ul>
+                            </div>
+                            <div class="shopping">
+                                <p>Mua sắm</p>
+                                <ul class="text">
+                                    <li><a href="">Đặt mua sạc</a></li>
+                                </ul>
+                            </div>
+                            <div class="community">
+                                <p>Thảo luận</p>
+                                <ul class="text">
+                                    <li><a href="">Cộng đồng VinFast toàn cầu</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    
+            </div>
+            
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <section>
+    <div class="content">
+        <div class="modal-content">
+                <div class="form-login">
+                    <div class="title"><h>Đăng nhập</h></div>
+                    <form action="">
+                        <input type="text" placeholder="Email" id="email"> <br>
+                        <div>
+                            <input type="password" placeholder="Mật khẩu" id="password">
+                            
+                        </div>
+                        
+                        <div class="note">
+                            <div class="note-left">
+                                <input type="checkbox" class="checkbox">
+                                <label for="">Ghi nhớ tài khoản</label>
+                            </div>
+                            <div class="note-right">
+                                <label for="">Quên mật khẩu?</label>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <button type="submit" class="submit" value="Đăng nhập">Đăng nhập</button>
+                        <div class="noAccount">Chưa có tài khoản?</div>
+                    </form>
+                    <div >
+                        <button type="submit" class="registerAccount" value="Đăng ký tài khoản">Đăng ký tài khoản</button>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+</section>
+<script src="index.js">
+</script>
+</body>
+</html>
