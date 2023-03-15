@@ -12,13 +12,12 @@ const getUser = async() =>{
 
 submit.addEventListener("click",(e) => {
   e.preventDefault();
-  if(email =="" || password==""){
+  if(email ==="" || password===""){
     alert("nhap email mk");
   } else{
     getUser().then((data) =>{
-      const user = data.find(
-        (user) =>
-        user.email == email && user.password == password
+      const user = data.find((user) =>
+        user.email === email && user.password === password
       );
       if (user) {
         alert("thanh cong");
